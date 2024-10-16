@@ -27,20 +27,8 @@ export default function Page() {
               Here is a PDF with information on our services and some of our success stories.
             </Description>
           </div>
-          <div className="py-5 lg:py-10">
-            <Link href={"/Rising-Wealth-Company-Profile.pdf"} target="_blank">
-              <button className="text-base lg:text-xl px-[20px] lg:px-[60px] py-[10px] lg:py-[15px] bg-[#464bd8] text-white rounded-full border-2 border-[#464bd8] font-bold tracking-wider hover:bg-transparent hover:text-[#464bd8] transition-all">
-                Download PDF
-              </button>
-            </Link>
-          </div>
-          <div className="py-5 lg:py-10">
-            <Link href={"/success-stories"}>
-              <button className="text-base lg:text-xl px-[20px] lg:px-[60px] py-[10px] lg:py-[15px] bg-[#464bd8] text-white rounded-full border-2 border-[#464bd8] font-bold tracking-wider hover:bg-transparent hover:text-[#464bd8] transition-all">
-                Explore Success Stories
-              </button>
-            </Link>
-          </div>
+          
+          
         </div>
       </Section>
     </MainContainer>
