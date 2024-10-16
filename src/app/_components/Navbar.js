@@ -25,21 +25,24 @@ const services = jsonData.services;
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for the menu
 
   const menuHandler = () => {
-    setIsActive(!isActive);
-    document.querySelector(".mobileMenu1").classList.toggle("-left-full");
-    document.querySelector(".mobileMenu1").classList.toggle("left-0");
+    setIsMenuOpen(!isMenuOpen);
   };
 
   useEffect(() => {
     let handler = () => {
-      setIsActive(false);
-      document.querySelector(".mobileMenu1").classList.add("-left-full");
-      document.querySelector(".mobileMenu1").classList.remove("left-0");
+      setIsMenuOpen(false); // Close the menu on mousedown
     };
+
     document.addEventListener("mousedown", handler);
-  });
+
+    // Cleanup the event listener on unmount
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  }, []);
 
   const pathName = usePathname();
 
@@ -55,18 +58,22 @@ export default function Navbar() {
           <div className="flex items-center">
             <Image
               src={"/Untitled-540-×-540px.png"}
-              width={133}
-              height={133}
+              width={123}
+              height={123}
               alt="logo"
               priority
+              sizes="(max-width: 768px) 100vw, 123px"
               className="w-auto h-auto"
             />
           </div>
         </Link>
-        <div className="mobileMenu1 bg-[#fafafa] text-white md:text-white absolute md:static top-full duration-200 -left-full py-5 md:py-auto w-full md:w-fit md:block h-auto md:h-full box-border md:bg-transparent">
-          <ul
-            className={`px-5 md:px-0 flex flex-col md:flex-row gap-5 md:gap-10 list-none justify-around md:justify-evenly h-full md:items-center`}
-          >
+        <div
+          className={clsx(
+            "mobileMenu1 bg-[#fafafa] text-white md:text-white absolute md:static top-full duration-200 py-5 md:py-auto w-full md:w-fit md:block h-auto md:h-full box-border md:bg-transparent",
+            isMenuOpen ? "left-0" : "-left-full"
+          )}
+        >
+          <ul className="px-5 md:px-0 flex flex-col md:flex-row gap-5 md:gap-10 list-none justify-around md:justify-evenly h-full md:items-center">
             {navbarArr.map((nav_item, i) => {
               return (
                 <li key={i} className="w-full tracking-wide group">
@@ -76,9 +83,9 @@ export default function Navbar() {
                       "w-max box-border font-bold h-full flex items-center hover:border-b-2 hover:text-[#0e0707] border-[#f8f8f8]",
                       {
                         "border-b-2 text-[#eae6df]": nav_item.path === pathName,
-                        "text-[#ffffff] hover:text-blue-800": nav_item.isButton,
                         "px-4 py-2 bg-white text-blue-800 rounded-lg":
-                          nav_item.isButton,
+                          nav_item.isButton, // Use text-blue-800 for buttons
+                        "text-[#ffffff]": !nav_item.isButton, // Use white for non-buttons
                       }
                     )}
                   >
@@ -102,8 +109,13 @@ export default function Navbar() {
             })}
           </ul>
         </div>
-        <div onClick={menuHandler} className="transition-all md:hidden">
-          {isActive ? (
+        <div
+          onClick={menuHandler}
+          aria-expanded={isActive}
+          aria-controls="navbar-menu"
+          className="transition-all md:hidden"
+        >
+          {isMenuOpen ? (
             <LiaTimesSolid size={"1.7em"} color="white" />
           ) : (
             <HiBars3 size={"1.7em"} color="white" />
