@@ -24,7 +24,6 @@ const navbarArr = [
 const services = jsonData.services;
 
 export default function Navbar() {
-  const [isActive, setIsActive] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State for the menu
 
   const menuHandler = () => {
@@ -67,6 +66,8 @@ export default function Navbar() {
             />
           </div>
         </Link>
+
+        {/* Mobile Menu */}
         <div
           className={clsx(
             "mobileMenu1 bg-[#fafafa] text-white md:text-white absolute md:static top-full duration-200 py-5 md:py-auto w-full md:w-fit md:block h-auto md:h-full box-border md:bg-transparent",
@@ -93,6 +94,7 @@ export default function Navbar() {
                     {nav_item?.dropdown ? <MdArrowDropDown /> : null}
                   </Link>
 
+                  {/* Dropdown Menu for Services */}
                   {nav_item?.dropdown ? (
                     <ul className="hidden md:absolute top-[60px] bg-white p-4 group-hover:flex text-black flex-col gap-2 rounded-lg text-md">
                       {services?.map((item, i) => (
@@ -109,9 +111,11 @@ export default function Navbar() {
             })}
           </ul>
         </div>
+
+        {/* Hamburger Icon */}
         <div
           onClick={menuHandler}
-          aria-expanded={isActive}
+          aria-expanded={isMenuOpen}
           aria-controls="navbar-menu"
           className="transition-all md:hidden"
         >
