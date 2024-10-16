@@ -1,0 +1,8 @@
+User-Agent: *
+
+Allow: /
+
+Disallow: /video-sequence
+Disallow: /manufacturing-video-sequence
+
+Sitemap: logamdigital.com/sitemap.xml

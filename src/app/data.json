@@ -1,0 +1,995 @@
+{
+  "services": [
+    {
+      "title": "Social Media Management",
+      "id": "social-media-management",
+      "icon": "/images/services/social-media-management-dark.png",
+      "description": "Engage with your target audience on social platforms. Explore How Social Media Management Strategy Drives Success.",
+      "path": "/services/social-media-management",
+      "pageTitle": "Social Media",
+      "pageDescription": "Reach Where Your Customers Love To Spend Their Time",
+      "section1": {
+        "altText": "Engage Audiences With Increased Online Presence",
+        "heading": "Explore How Social Media Management Strategy Drives Success",
+        "data": [
+          {
+            "title": "What's Trending Now",
+            "description": [
+              "Social media is at the fingertips of people nowadays. It is the place where people spend their most time. So your customers are. If a brand wants to get the attention of its target audience, It’s best to be on their social feed.",
+              "Social media Ads provide the best ROI if used properly. Furthermore, having a decent following on these platforms provides genuine social proof to your target audience. Big brands are adapting it quickly and going heavy on social media advertising. Logam digital is here to increase your revenue and visibility using social media ads."
+            ]
+          },
+          {
+            "title": "The Challenge",
+            "description": [
+              "With iPhone implementing new updates and Google planning to bring new norms where one can’t use cookies on a website, It’s being increasingly difficult to track user behavior on websites after they leave social media platforms. As a result, It’s being increasingly difficult to run profitable ads on social media.",
+              "As the popularity of these platforms increases over time, more and more brands are jumping onto the bandwagon for marketing. Therefore, money and capabilities that excelled in the past are not enough now."
+            ]
+          }
+        ]
+      },
+      "companyStrength": {
+        "strongPoints": [
+          "Each business is different and each industry is different. Each social media platform is different and running ads on each one of them brings unique opportunities and also challenges at the same time.",
+          "So, it is being increasingly important to hire an agency that has excellent experience and capabilities to generate profitable results for your niche.",
+          "Logam Digital is a marketing agency that has excellent capabilities to run targeted ads on social platforms and generate quality leads for businesses."
+        ],
+        "stats": [
+          { "title": "Facebook Ads", "percentage": "95%" },
+          { "title": "Facebook", "percentage": "89%" },
+          { "title": "Instagram", "percentage": "91%" },
+          { "title": "Instagram Ads", "percentage": "98%" }
+        ]
+      },
+      "features": {
+        "altText": "Bespoke Marketing Strategy",
+        "title": "Customized Social Media Strategy",
+        "data": [
+          "Each business is different in a whole lot of parameters. So, while designing social advertising campaigns it’s never like one size fits all.",
+          "Contact us to get a custom social media strategy for your business and increase your revenue."
+        ],
+        "expectations": [
+          "Regular posting on social media platforms",
+          "Creatives showing USPs of the business",
+          "Dedicated social media account manager",
+          "Constant monitoring and optimization",
+          "Facebook and Instagram Ads for awareness of the business",
+          "Retargeting ads for better ROI",
+          "Competition analysis reports"
+        ]
+      },
+      "clients": ["casa-amplio", "study-visa-planet", "radha-krishna-jyotish"]
+    },
+    {
+      "title": "Lead generation",
+      "id": "lead-generation",
+      "icon": "/images/services/lead-generation-dark.png",
+      "description": "Target people who are ready to be your customer. Discover how lead generation can get you more sales",
+      "path": "/services/lead-generation",
+      "pageTitle": "Lead Generation",
+      "pageDescription": "Generate high quality leads at optimal cost",
+      "section1": {
+        "altText": "Target people who are ready to be your customer",
+        "heading": "Discover how lead generation can get you more sales",
+        "data": [
+          {
+            "title": "What's Trending Now",
+            "description": [
+              "All the businesses dream to generate quality leads on a regular basis. Because these are the leads which will eventually convert to good numbers on the balance sheet. Businesses try all the different ways to quality leads and spend most part of their marketing budget on lead generation.",
+              "Spends on the social media and search engine ads by businesses is at record high level now a days. This fact simply denotes that the lead generation from this platform is very much profitable. People are on these platforms most of the time and these are their go to places if they want to research before making purchase decision. Are you taking full advantage of this platforms?"
+            ]
+          },
+          {
+            "title": "The Challenge",
+            "description": [
+              "As more and more businesses are employing online lead generation to boost their revenue, the platforms and marketers are becoming more sophisticated and evolved. This has also made running profitable marketing campaign difficult task.",
+              "Google and Facebook are trying to simplify their marketing platform for so long now, so that more and more people can use it. We can say that this move has paid dividends very well as we can see the number of businesses doing online marketing is exploding. Most of the changes are made to help the businesses use this platform with ease. At the same time some of the changes are there that can confuse the normal person focusing on the business and can lead to the wastage of marketing spend. This attracts the need of talent that can focus on this everchanging industry."
+            ]
+          }
+        ]
+      },
+      "companyStrength": {
+        "strongPoints": [
+          "Each business is different and each industry is different. Each social media platform is different and running ads on each one of them brings unique opportunities and also challenges at the same time.",
+          "So, it is being increasingly important to hire an agency that has excellent experience and capabilities to generate profitable results for your niche.",
+          "Logam Digital is a marketing agency that has excellent capabilities to run targeted ads on social platforms and generate quality leads for businesses."
+        ],
+        "stats": [
+          { "title": "Facebook Ads", "percentage": "95%" },
+          { "title": "Facebook", "percentage": "89%" },
+          { "title": "Instagram", "percentage": "91%" },
+          { "title": "Instagram Ads", "percentage": "98%" }
+        ]
+      },
+      "features": {
+        "altText": "Bespoke Lead Generation Strategy",
+        "title": "Lead generation strategies that are tailored to your business",
+        "data": [
+          "Each business is different in a whole lot of parameters. Ads goals are also not the same. So, one campaign-building strategy never works for all types of businesses and all the different objectives of same business.",
+          "Contact us to get a custom lead generation strategy for your business and increase your revenue."
+        ],
+        "expectations": [
+          "Google Ads",
+          "Display Ads",
+          "YouTube ads",
+          "Facebook ads with pixel integration",
+          "Instagram ads",
+          "Retargeting ads",
+          "Remarketing ads",
+          "Google analytics and Google tag manager integration",
+          "Keyword research",
+          "Competition analysis reports",
+          "Constant monitoring and optimization",
+          "Dedicated ad account manager",
+          "Custom landing page"
+        ]
+      },
+      "clients": [
+        "green-valley",
+        "casa-amplio",
+        "zoyalty",
+        "sahajanand-elite",
+        "ratnakar-developers"
+      ]
+    },
+    {
+      "title": "Branding",
+      "id": "branding",
+      "icon": "/images/services/branding-dark.png",
+      "description": "Represent the essence of your brand visually. Know the crucial trends in the Branding to help your business.",
+      "path": "/services/branding",
+      "pageTitle": "Branding",
+      "pageDescription": "Creatives that represent your brand perfectly",
+      "section1": {
+        "altText": "Target people who are ready to be your customer",
+        "heading": "Discover how lead generation can get you more sales",
+        "data": [
+          {
+            "title": "What's Trending Now",
+            "description": [
+              "We can clearly see the rising trend of unedited videos and images on social media platforms. That means the type of content that is raw – unedited and without any filters. This type of content talks directly to the viewer and doesn’t give corporate feeling.",
+              "The trend that is very much visible is the minimalism. This is applied to almost all the industries baring few exceptions like fashion and kids’ industry. At this time this is necessary to align your brand with the new trend and keep yourself updated with the newer one. Also, it is very much important to not forget the actual essence of your brand just to coup with the new trend."
+            ]
+          },
+          {
+            "title": "The Challenge",
+            "description": [
+              "New trends emerge regularly. It is very easy to swayed by new trend. This is where a detailed brand guide comes handy. You should hope on to the new trends but does not leave behind the essence of your brand – The pillars that defines your brand.",
+              "To be updated with all the new and coming trends and also align your branding according to that is not one person task. A proper team is required to get the branding game right each time. We at Logam Digital believe that each brand is different and branding for each business require personal touch and deep understanding of the respective business."
+            ]
+          }
+        ]
+      },
+      "companyStrength": {
+        "strongPoints": [
+          "Each business is different and each industry is different. Each social media platform is different and running ads on each one of them brings unique opportunities and also challenges at the same time.",
+          "So, it is being increasingly important to hire an agency that has excellent experience and capabilities to generate profitable results for your niche.",
+          "Logam Digital is a marketing agency that has excellent capabilities to run targeted ads on social platforms and generate quality leads for businesses."
+        ],
+        "stats": [
+          { "title": "Facebook Ads", "percentage": "95%" },
+          { "title": "Facebook", "percentage": "89%" },
+          { "title": "Instagram", "percentage": "91%" },
+          { "title": "Instagram Ads", "percentage": "98%" }
+        ]
+      },
+      "features": {
+        "altText": "Bespoke Branding Strategy",
+        "title": "Branding that perfectly reflect the core of your business",
+        "data": [
+          "Each business is different in a whole lot of parameters. So, while designing ad creatives or social media post for your campaigns, it’s never like one size fits all.",
+          "Contact us to get your branding done by experts."
+        ],
+        "expectations": [
+          "Logo design",
+          "Brochure design",
+          "Social media posts",
+          "Pamphlets",
+          "Company profile",
+          "Hoardings",
+          "Banners",
+          "Professional video shoots",
+          "3D video",
+          "Animated video"
+        ]
+      },
+      "clients": ["green-valley", "study-visa-planet", "royal-inn"]
+    },
+    {
+      "title": "WhatsApp Automation",
+      "id": "whatsapp-automation",
+      "icon": "/images/services/whatsapp-automation-dark.png",
+      "description": "Send personalised messages that has high open rate. WhatsApp Automation is crucial while reaching your audience personally.",
+      "path": "/services/whatsapp-automation",
+      "pageTitle": "WhatsApp Automation",
+      "pageDescription": "Reach to your target audience directly on WhatsApp",
+      "section1": {
+        "altText": "Send personalised messages that has high open rate",
+        "heading": "WhatsApp automation is crucial while reaching your audience personally.",
+        "data": [
+          {
+            "title": "What's Trending Now",
+            "description": [
+              "These days all the businesses are focusing on reaching wider audience with hyper personalised messages. Social media platforms are good way to reach wider audience but it lacks personalization at granular level.",
+              "As more and more businesses want to get the advantages of digital platforms and grab the users’ attention, it is getting very hard for brands to get front of their exact target audience. Even if somehow, you will be able to reach your audience through paid campaigns, doing so consistently will cost you high. Is there any sustainable solution? Yes."
+            ]
+          },
+          {
+            "title": "The Solution",
+            "description": [
+              "WhatsApp is the way to reach your exact target audience with hyper personalization. WhatsApp business offers some of the very useful features but there is are some issues like scaling and automation. You can not message thousands of your prospective buyers with personalization.",
+              "This can be done easily using WhatsApp API solution. This is the official business API solution provided by WhatsApp. You can share personalized messages to thousands of people at once that too with automation. We at Logam digital help our clients set up WhatsApp automation from scratch."
+            ]
+          }
+        ]
+      },
+      "companyStrength": {
+        "strongPoints": [
+          "Each business is different and each industry is different. Each social media platform is different and running ads on each one of them brings unique opportunities and also challenges at the same time.",
+          "So, it is being increasingly important to hire an agency that has excellent experience and capabilities to generate profitable results for your niche.",
+          "Logam Digital is a marketing agency that has excellent capabilities to run targeted ads on social platforms and generate quality leads for businesses."
+        ],
+        "stats": [
+          { "title": "Facebook Ads", "percentage": "95%" },
+          { "title": "Facebook", "percentage": "89%" },
+          { "title": "Instagram", "percentage": "91%" },
+          { "title": "Instagram Ads", "percentage": "98%" }
+        ]
+      },
+      "features": {
+        "altText": "Bespoke Whatsapp Automation",
+        "title": "Send highly personalized WhatsApp messages",
+        "data": [
+          "The WhatsApp automation requirements of your business can be unique. You may want different things to happen when user take a specific action.",
+          "Contact our experts to set up customized WhatsApp automaton for your business."
+        ],
+        "expectations": [
+          "WhatsApp official API",
+          "Application for green tick verification",
+          "Send instant message on WhatsApp when inquiry is made via social media, Website etc.",
+          "Automatic message sequence based on user profile",
+          "Festival greeting messages on WhatsApp",
+          "Approval is provided by WhatsApp only"
+        ]
+      },
+      "clients": ["gurukrupa"]
+    },
+    {
+      "title": "PR Activity",
+      "id": "pr-activity",
+      "icon": "/images/services/pr-activity-dark.png",
+      "description": "Make your brand highly trusted with social proof. Explore the way to build trust using PR activity.",
+      "path": "/services/pr-activity",
+      "pageTitle": "PR Activity",
+      "pageDescription": "Build trust in your brand",
+      "section1": {
+        "altText": "Make your brand highly trusted with social proof",
+        "heading": "Explore the way to build trust using PR activity",
+        "data": [
+          {
+            "title": "What's Trending Now",
+            "description": [
+              "As we all know the importance of being online and at the fingertips of our clients, being the brand that people trust is increasingly important. We can see all the people and brands collaborating with each other and reputable figures in the industry to boost trust. This type of collaboration not just increase the trust but also help tap into the audience of each other’s.",
+              "It is not limited to just collaborations. We can see that happening with the help of awards, Shoutouts and all the different forms of getting recognized. There are endless opportunities out there for doing the exact PR of your business. You just have to be vigilant about is and keep an open eye."
+            ]
+          },
+          {
+            "title": "The Solution",
+            "description": [
+              "It is the common perception that people associated with top publication in respective industry, are very much credible and can be trusted. The effect is same for the people associated with other famous people in the industry.",
+              "If you are already an established business and your customers are loving your products and services, then the PR activity can help your business in increasing the trust. The common motion of the human behaviour mentioned in the above paragraph can help you. Your business can be seen as credible and trust worthy. This will also help you boost conversion ratio."
+            ]
+          }
+        ]
+      },
+      "companyStrength": {
+        "strongPoints": [
+          "Each business is different and each industry is different. Each social media platform is different and running ads on each one of them brings unique opportunities and also challenges at the same time.",
+          "So, it is being increasingly important to hire an agency that has excellent experience and capabilities to generate profitable results for your niche.",
+          "Logam Digital is a marketing agency that has excellent capabilities to run targeted ads on social platforms and generate quality leads for businesses."
+        ],
+        "stats": [
+          { "title": "Facebook Ads", "percentage": "95%" },
+          { "title": "Facebook", "percentage": "89%" },
+          { "title": "Instagram", "percentage": "91%" },
+          { "title": "Instagram Ads", "percentage": "98%" }
+        ]
+      },
+      "features": {
+        "altText": "Bespoke Whatsapp Automation",
+        "title": "Make your business associated with credible sources in your industry",
+        "data": [
+          "Your business is unique and so does it require unique solution for PR. There are many ways to associate your brand with other credible figures but you need to have keep understanding of the industry and impact of collaboration.",
+          "We at Logam digital give personal attention to each of our clients to get this right every time."
+        ],
+        "expectations": [
+          "Article writing on top sites",
+          "Collaboration on social media",
+          "Shoutout from cross-industry leaders",
+          "Awards based on your category",
+          "Nomination and winning of titles",
+          "Celebrity collaboration and recommendation",
+          "Ads on top sites"
+        ]
+      },
+      "clients": ["radha-krishna-jyotish"]
+    },
+    {
+      "title": "Website Development",
+      "id": "website-development",
+      "icon": "/images/services/website-development-dark.png",
+      "description": "Build your audience on your platform. Learn the importance of your website: Branding & Data.",
+      "path": "/services/website-development",
+      "pageTitle": "Website Development",
+      "pageDescription": "Showcase your brand – Your way",
+      "section1": {
+        "altText": "Make your brand highly trusted with social proof",
+        "heading": "Explore the way to build trust using Website Development",
+        "data": [
+          {
+            "title": "The Challenge",
+            "description": [
+              "All the businesses are trying to reach their audience through different platforms. These platforms have now become so important to the people that all of their online presence is dependent on these platforms. Apart from all the advantages there are some disadvantages also. And those are some very major disadvantages. One of them is your brand looks very similar to the others. Your website can act as a place on which you can fully express your brand in your own way.",
+              "The other major one is the importance of first party data. All these platforms that businesses are using to build the online presence have a common disadvantage, that none of them will allow you to export the data out of their system. So, you have an audience on a specific platform but you cannot use them on another platform. The data on these platforms is called third-party data. And you cannot rely on this data. You must have a first party data for your business."
+            ]
+          },
+          {
+            "title": "The Solution",
+            "description": [
+              "The custom build website solves the both of the above-mentioned problems. You can have a website that perfectly showcase the essence of the brand. You can do that by selecting fonts, photos, text and colour of the website.",
+              "On your website you can install tracing tools that track the behaviour of user visiting the website. This is very useful tool as this helps us in monitoring the user behaviour and also storing their data. You can use behaviour patterns to improve the look and feel of the website to attract and retain the users. The data can be utilized for retargeting and remarketing on any different platforms as this is the first party data for your brand."
+            ]
+          }
+        ]
+      },
+      "companyStrength": {
+        "strongPoints": [
+          "Each business is different and each industry is different. Each social media platform is different and running ads on each one of them brings unique opportunities and also challenges at the same time.",
+          "So, it is being increasingly important to hire an agency that has excellent experience and capabilities to generate profitable results for your niche.",
+          "Logam Digital is a marketing agency that has excellent capabilities to run targeted ads on social platforms and generate quality leads for businesses."
+        ],
+        "stats": [
+          { "title": "Facebook Ads", "percentage": "95%" },
+          { "title": "Facebook", "percentage": "89%" },
+          { "title": "Instagram", "percentage": "91%" },
+          { "title": "Instagram Ads", "percentage": "98%" }
+        ]
+      },
+      "features": {
+        "altText": "Bespoke Whatsapp Automation",
+        "title": "Showcase you brand the way is deserves",
+        "data": [
+          "Your website should reflect the values you believe in and act as a central hub for all your marketing activity. You should not go generic in while designing your website. At Logam digital we offer custom design and development of website that fulfils your exact requirements.",
+          "Contact us for your any requirements regarding website development and tracking tools installation."
+        ],
+        "expectations": [
+          "Custom website design and development",
+          "Brand website",
+          "One-pager website",
+          "Landing page design and development",
+          "E-commerce website"
+        ]
+      },
+      "clients": [
+        "casa-amplio",
+        "vishal-coach",
+        "mahi-spa",
+        "saregama-mobile",
+        "gurukrupa"
+      ]
+    }
+  ],
+  "serviceFeatures": [
+    {
+      "caption": "Rise To The Top",
+      "title": "Increase Sales",
+      "description": "Crush your competition and gain market share in your niche with high converting and focused ads from Logam Digital at your arsenal."
+    },
+    {
+      "caption": "Count On Us",
+      "title": "The ROI Experts",
+      "description": "We always focus on what our clients get in return for every buck they spend for enhancing the digital presence of their business."
+    },
+    {
+      "caption": "Try, Try Again",
+      "title": "Continuous Optimization",
+      "description": "When our campaigns deliver expected results to our clients, it is the best feeling ever. But we never stop at that, we exist because we optimize continuously. Continuous optimization is our expertise."
+    }
+  ],
+  "clients": [
+    {
+      "id": "sahajanand-elite",
+      "logo": "/images/clients/sahajanand-elite/logo.webp",
+      "name": "Sahajanand Elite",
+      "bgImage": "/images/clients/sahajanand-elite/bg.webp",
+      "location": "Sargasan, Gandhinagar, Gujarat",
+      "keyChallenges": "The developer was offering 2 & 3 BHK Apartments and Shops (40 ~ 65 Lakhs) in Sargasan which is a developing town with lots of upcoming and ongoing projects. Hence attracting people to their project was quite difficult.",
+      "solutionsImplemented": [
+        "Showcase unique selling points on social media in a creative way",
+        "Use social media ads to target customers and generate quality leads",
+        "Generate Leads by showcasing the USPs of the project",
+        "Implement a proper sales funnel and using a dedicated CRM"
+      ],
+      "results": [
+        "Lead generation started from the 5th day",
+        "Footfall on the site increased by 9x",
+        "First House sold from leads on the 43rd day. Continuous bookings after that",
+        "ROI for digital campaigns was way higher than traditional advertising channels"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/sahajanand-elite/design_1.webp",
+          "/images/clients/sahajanand-elite/design_2.webp",
+          "/images/clients/sahajanand-elite/design_3.webp"
+        ],
+        "videos": [
+          { "src": "https://www.youtube.com/embed/hBmNuhWgHmk" },
+          { "src": "https://www.youtube.com/embed/b7_Vuw_zcdQ" },
+          { "src": "https://www.youtube.com/embed/TWoSoQljo2c" }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/hZOV6cDGw4s"
+    },
+    {
+      "id": "zoyalty",
+      "logo": "/images/clients/zoyalty/logo.webp",
+      "name": "Zoyalty",
+      "bgImage": "/images/clients/zoyalty/bg.webp",
+      "location": " Sector 74A, Gurugram",
+      "keyChallenges": "The key problem the channel partner faced was that the leads provided for any of the projects by previous agencies we not qualified i.e. either the leads had budget issues or the location was far from their choice.",
+      "solutionsImplemented": [
+        "Create their own brand and try not to hide that they are a broker as customers will know at the end that they have been dealing with a channel partner.",
+        "Use social media ads and Google ads to target the right customers and generate quality leads for the specific project.",
+        "Implement a proper sales funnel and use a dedicated CRM. Resend qualified leads back to their own ad account for optimization of the page and Ad account."
+      ],
+      "results": [
+        "Lead generation started on the 4th day of onboarding",
+        "A house worth 1.04 Crore was sold on the 48th day of their onboarding",
+        "For every 10 leads generated 8 were qualified"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/zoyalty/design_1.webp",
+          "/images/clients/zoyalty/design_2.webp",
+          "/images/clients/zoyalty/design_3.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/QekAImEW1f0"
+          },
+          {
+            "src": "https://www.youtube.com/embed/JkrVcgZRJhI",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/9WLF_J1__IU",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/7JdTc6fhWcQ",
+            "width": 335,
+            "height": 600
+          }
+        ]
+      }
+    },
+    {
+      "id": "casa-amplio",
+      "logo": "/images/clients/casa-amplio/logo.webp",
+      "name": "Casa Amplio",
+      "bgImage": "/images/clients/casa-amplio/bg.webp",
+      "location": "Thaltej, Ahmedabad",
+      "keyChallenges": "Thaltej being a posh locality, the ticket size of the apartments (4 BHK) was 2.75+ Cr. The key problem was generating leads that were qualified on two parameters: Budget and Location.",
+      "solutionsImplemented": [
+        "Create animated videos emphasizing the location’s benefits.",
+        "As the ticket size of the property was on the higher side, we created a website that showcased all the amenities.",
+        "Users were brought to the website using Google ads. Once the user visited the website and interacted with it, they were targeted using retargeting ads on social media.",
+        "Standalone social media ads were also run, which led users to the website so they could get more information."
+      ],
+      "results": [
+        "Footfall on site increased by 4x",
+        "People that visited the site were aware of all the amenities and the surroundings",
+        "For every 10 leads generated 6 were qualified"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/casa-amplio/design_1.webp",
+          "/images/clients/casa-amplio/design_2.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/UDXh9pusRE4"
+          },
+          {
+            "src": "https://www.youtube.com/embed/q-Kw02tWMPc"
+          },
+          {
+            "src": "https://www.youtube.com/embed/h-Gcj-vE7Co"
+          },
+          {
+            "src": "https://www.youtube.com/embed/heJ8tpJwhnI"
+          }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/6G63VfrnxR4"
+    },
+    {
+      "id": "aatmee-developers",
+      "logo": "/images/clients/aatmee-developers/logo.webp",
+      "name": "Aatmee Developers",
+      "bgImage": "/images/clients/aatmee-developers/bg.webp",
+      "location": "Anand, Gujarat",
+      "keyChallenges": "Despite Anand being a small town, due to the high number of upcoming projects, the visibility of Aatmee Developer was low.",
+      "solutionsImplemented": [
+        "Awareness videos of all upcoming and recent projects.",
+        "A brand website where users can find more details about the previous project and other details.",
+        "Integration of CRM with the website and all social media ad accounts to ensure a quality customer experience.",
+        "WhatsApp automation so all clients stay up-to-date on all relevant information and can get any additional offers on the festival while booking their new home."
+      ],
+      "results": [
+        "Huge gathering of 2000+ people on the launch of new projects",
+        "Total leads and calls for all sites: 103",
+        "24 Site visits",
+        "7 sales for a one year old site in the span of 2 months"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/aatmee-developers/design_1.webp",
+          "/images/clients/aatmee-developers/design_2.webp",
+          "/images/clients/aatmee-developers/design_3.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/tyQpMRpLZgg"
+          },
+          {
+            "src": "https://www.youtube.com/embed/07kFP2A20fQ"
+          },
+          {
+            "src": "https://www.youtube.com/embed/rocyUcy25fc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green-valley",
+      "logo": "/images/clients/green-valley/logo.webp",
+      "name": "Green Valley",
+      "bgImage": "/images/clients/green-valley/bg.webp",
+      "location": "Chavlaj, Gujarat",
+      "keyChallenges": "Green Valley is a weekend villa scheme located on the outskirts of Ahmedabad City. As this is a second home for most people there is no urgency to make a buying decision.",
+      "solutionsImplemented": [
+        "As the developer offers very premium amenities and large spaces, videos showcasing these elements were promoted.",
+        "Leads were directly submitted to the salesperson on WhatsApp, so no time was lost in calling the client.",
+        "A backend CRM was integrated, and leads were marked according to deal stages.",
+        "This helped us in the further optimization of ad campaigns."
+      ],
+      "results": [
+        "A house that was on the biggest plot in phase one was sold by one of the qualified leads",
+        "On average, there are 2–3 site visits per day",
+        "Considering the site is located 25 km from the main city, this number is very impressive",
+        "This number is increased by 4 times on weekends",
+        "2-3 houses are sold every month"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/green-valley/design_1.webp",
+          "/images/clients/green-valley/design_2.webp",
+          "/images/clients/green-valley/design_3.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/ortOZ4lTyaQ"
+          },
+          {
+            "src": "https://www.youtube.com/embed/N7iR8GSt-tE"
+          },
+          {
+            "src": "https://www.youtube.com/embed/n7Lu6vaD7jE"
+          }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/DaN-EXxP4Wg"
+    },
+    {
+      "id": "study-visa-planet",
+      "logo": "/images/clients/study-visa-planet/logo.webp",
+      "name": "Study Visa Planet",
+      "bgImage": "/images/clients/study-visa-planet/bg.webp",
+      "location": "Anand, Gujarat.",
+      "keyChallenges": "Study Visa plannet needed a fresh rebranding. Also, the client needed a fresh video that could announce that they had rebranded. The client offered unique services that were best in Anand and had to be showcased perfectly so that when students showed up at the office, they were educated about the services being offered.",
+      "solutionsImplemented": [
+        "A fresh new logo and brand guide.",
+        "New social media accounts with client testimonials and visa success stories.",
+        "A fresh new minimal website with all services offered.",
+        "A 3D video to showcase the location Relevant ads with backend CRM integration and proper sales funnel."
+      ],
+      "results": [
+        "Office footfall was increased to the extent that the client opens an office for limited working hours",
+        "Every student that considers the UK as his study location once visits the office",
+        "Due to the proper sales funnel and backend, clients did more than 100 visas in one quarter"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/study-visa-planet/design_1.webp",
+          "/images/clients/study-visa-planet/design_2.webp",
+          "/images/clients/study-visa-planet/design_3.webp",
+          "/images/clients/study-visa-planet/design_4.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/jsam0Z3gWog"
+          },
+          {
+            "src": "https://www.youtube.com/embed/JpobWZPkH7g"
+          },
+          {
+            "src": "https://www.youtube.com/embed/kdrrly9OXCA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saregama-mobile",
+      "logo": "/images/clients/saregama-mobile/logo.webp",
+      "name": "Saregama Mobile",
+      "bgImage": "/images/clients/saregama-mobile/bg.webp",
+      "location": "Anand, Gujarat",
+      "keyChallenges": "Saregama Mobile is the biggest smartphone retailer in Anand, with over 10 stores. The client had a unique problem: it had close to zero online presence and was losing out on potential customers.",
+      "solutionsImplemented": [
+        "Create and manage social media accounts with ads active for 365 days.",
+        "While all other competitors were creating content around offers, we took a different approach. We showcased customer testimonials from happy customers who shopped at all the branches.",
+        "WhatsApp automation implementation for interacting with customers on a regular basis An e-commerce website was created so that consumers within a 50 km radius could take advantage of special offers and free delivery.",
+        "For leading users to an e-commerce website, reels were created that showcased new smartphone launches and comparisons in regional languages."
+      ],
+      "results": [
+        "In-store footfall increased by 4x, resulting in more sales",
+        "Pre - bookings of new smartphones was increased by 2x",
+        "Customers, when they visited the stores, were aware of new smartphone features and were easy to convert"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/saregama-mobile/design_1.webp",
+          "/images/clients/saregama-mobile/design_2.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/EmHx7IoqidM",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/1a1JkN61ts8",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/tuerT5X81f8"
+          },
+          {
+            "src": "https://www.youtube.com/embed/weE_1GyJQsY"
+          },
+          {
+            "src": "https://www.youtube.com/embed/HmHXMUth8dI"
+          },
+          {
+            "src": "https://www.youtube.com/embed/Sikpeu66KAw"
+          }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/TM2cHV3IIpM"
+    },
+    {
+      "id": "ratnakar-developers",
+      "logo": "/images/clients/ratnakar-developers/logo.webp",
+      "name": "Ratnakar Developers",
+      "bgImage": "/images/clients/ratnakar-developers/bg.webp",
+      "location": "Bhavnagar, Gujarat",
+      "keyChallenges": "The homes that the developer was offering were 3 BHK homes with independent floor for each home. As the project was located in Bhavnagar, Gujarat there was a very low awareness of this project. Also, the ticket size for this project was above 1cr, so qualified customers were hard to attract to this project.",
+      "solutionsImplemented": [
+        "Showcase unique selling points of the projects such as an independent floor for each home, prime location, and premium amenities of the project on social media.",
+        "Video ads showcased the project’s poshness and were run to create awareness among people.",
+        "Once we gathered the data about people who have shown interest in awareness videos, They were targeted with lead-generation ads.",
+        "There were some filters in place while generating leads to make sure only qualified leads were being tackled by the developer.",
+        "At the end of every month, a follow-up call was done with the developer to ensure the quality of leads"
+      ],
+      "results": [
+        "The whole project was sold out within 3 months of lead generation.",
+        "People showed EOI in developer's upcoming projects."
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/ratnakar-developers/design_1.webp",
+          "/images/clients/ratnakar-developers/design_2.webp"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/eZKYtjjXZ90",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/cKtK5IYH0nk",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/jZ4zNKceTIE",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/2iwQvCM9QOI",
+            "width": 335,
+            "height": 600
+          }
+        ]
+      }
+    },
+    {
+      "id": "gurukrupa",
+      "logo": "/images/clients/gurukrupa/logo.png",
+      "name": "Gurukrupa Wire Netting Industries",
+      "bgImage": "/images/clients/gurukrupa/bg.png",
+      "location": "Petlad, Anand, Gujarat",
+      "keyChallenges": "Gurukrupa Wire Netting Industries is already established wire product manufacturing company. They were already utilizing online ads to drive growth in their business. The key challenge was that previously most of their marketing efforts were on third-party platforms such as directories. So, there was no control on marketing specific product and allocating budget on specific product based on their past experience. Also, there was lack of control on the location targeting. Furthermore, all the previous assets were not under their ownership so even after years of marketing on different platforms they ware not able to take the advantage of optimization of platform over time.",
+      "solutionsImplemented": [
+        "Creation social media handles and started posting consistently on them.",
+        "Video shoot showing the scale of business.",
+        "Content creation showcasing different product manufacturing process.",
+        "Landing page creation for ads.",
+        "Key word research for their product and finalization of few products that has good search volume.",
+        "Run search engine ads to solve the discovery for people at the bottom of the sales funnel.",
+        "Retargeting and remarketing ads on social media.",
+        "WhatsApp Automation"
+      ],
+      "results": [
+        "Generated high quality leads from search engine and social media.",
+        "Online discovery of business and its scale is solved.",
+        "Closed few high-ticket clients in first 1.5 months.",
+        "WhatsApp automation has increased productivity for sales team and personalization for clients."
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/gurukrupa/design_1.jpg",
+          "/images/clients/gurukrupa/design_2.png",
+          "/images/clients/gurukrupa/design_3.png",
+          "/images/clients/gurukrupa/design_4.png"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/0ZmDjhzcVjM",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/w-Jc5eGzTD8"
+          }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/8arZXfsuImk"
+    },
+    {
+      "id": "jawed-habib-salon",
+      "logo": "/images/clients/jawed-habib-salon/logo.png",
+      "name": "Jawed Habib Salon",
+      "bgImage": "/images/clients/jawed-habib-salon/bg.png",
+      "location": "Anand, Gujarat",
+      "keyChallenges": "Jawed habib salon is a unisex salon in Anand, and it is the franchise of famous Jawed Habib. It is well-known name in the industry but the challenge was local people knew very little about the franchise and were not ready to pay the premium. This was due to lack of awareness and discovery.",
+      "solutionsImplemented": [
+        "A grand opening ceremony is organized and a famous politician was invited.",
+        "Video shoot showcasing people getting services at the salon.",
+        "Social media ads to bring the awareness about the business.",
+        "Direct messages ads on social media based on interest and behavior in local area"
+      ],
+      "results": [
+        "Footfall increased significantly as awareness is increased and discovery is solved."
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/jawed-habib-salon/design_1.jpeg",
+          "/images/clients/jawed-habib-salon/design_2.png",
+          "/images/clients/jawed-habib-salon/design_3.png"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/vNSgVMSbiHE"
+          },
+          {
+            "src": "https://www.youtube.com/embed/9LLXrxscHyU"
+          }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/teUnIkW4NwA"
+    },
+    {
+      "id": "royal-inn",
+      "logo": "/images/clients/royal-inn/logo.png",
+      "name": "Hotel Royal Inn",
+      "bgImage": "/images/clients/royal-inn/bg.png",
+      "location": "Anand, Gujarat",
+      "keyChallenges": "This is the launch of new hotel. The entire visual identity is needed to be created. As the brand was new to the market there was no awareness about the brand and the services, they provide among target audience.",
+      "solutionsImplemented": [
+        "Logo creation that perfectly resonate with the brand in the making.",
+        "Hoarding and banner design for offline awareness.",
+        "Video shoot showcasing the entire facility.",
+        "Social media ads to increase the awareness about the business."
+      ],
+      "results": [
+        "Awareness about the business in local area",
+        "Got some bookings through online marketing in very first month"
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/royal-inn/design_1.png",
+          "/images/clients/royal-inn/design_2.png"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/2o1fuljbnUU",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/JdDQ5bj8fKc",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/kK-1mITE2go",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/7Sa7tR6y60o",
+            "width": 335,
+            "height": 600
+          }
+        ]
+      }
+    },
+    {
+      "id": "radha-krishna-jyotish",
+      "logo": "/images/clients/radha-krishna-jyotish/logo.png",
+      "name": "Radha Krishna Astrologer",
+      "bgImage": "/images/clients/radha-krishna-jyotish/bg.png",
+      "location": "Anand, Gujarat",
+      "keyChallenges": "Sanjay Kumar Bhargav is a renowned astrologer with a local presence but almost no online presence. The main challenge was to attract overseas clients, especially those seeking high-ticket services. The primary goal was to devise and implement a strategy to build trust among people online and convince them to avail of his services.",
+      "solutionsImplemented": [
+        "Created an introductory video featuring Sanjay Kumar introducing himself.",
+        "Posted videos on Instagram and Facebook where Sanjay explained various topics instead of using graphics, aiming to make it more relatable for customers.",
+        "Conducted PR activities after consistent posting.",
+        "Ran retargeting ads on Facebook and Instagram, directing users to WhatsApp for consultations.",
+        "Ran specific campaigns targeting the US and UK to attract overseas clients.",
+        "Daily Panchang for users to know shubh mahurat."
+      ],
+      "results": [
+        "Business has grown by over 500%.",
+        "Sanjay Kumar received a Zee News national award for Astrological Oracle.",
+        "The organic content posted on Instagram and Facebook made closing clients much easier.",
+        "On average, one overseas client is closed every two days.",
+        "Daily panchangs were shared by local people and small community was formed.",
+        "Many local visitors to his office are now willing to pay a premium due to his enhanced online presence."
+      ],
+      "creativesDesigned": {
+        "images": [
+          "/images/clients/radha-krishna-jyotish/design_1.png",
+          "/images/clients/radha-krishna-jyotish/design_2.png"
+        ],
+        "videos": [
+          {
+            "src": "https://www.youtube.com/embed/KY3Zg-0PVIo"
+          },
+          {
+            "src": "https://www.youtube.com/embed/wdIFQOTgUFE"
+          },
+          {
+            "src": "https://www.youtube.com/embed/qj7ba9OHLuQ",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/T71IsuroRx4",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/WbxB_V1qq_8",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/sBh6yNCzxsg",
+            "width": 335,
+            "height": 600
+          },
+          {
+            "src": "https://www.youtube.com/embed/jL5KG9EkMtg",
+            "width": 335,
+            "height": 600
+          }
+        ]
+      },
+      "testimonial": "https://www.youtube.com/embed/mXaOE_6i7-I"
+    }
+  ],
+  
+    "sequenceEmailReceivers": ["ayazsmemon07@gmail.com"],
+    "emailReceivers": [
+      "ayazsmemon07@gmail.com"
+    ],
+    "videoTestimonials": [
+      {
+        "src": "https://www.youtube.com/embed/6G63VfrnxR4",
+        "clientName": "Mr. Darsheel Kumbhani",
+        "companyName": "Real Estate Developer"
+      },
+      {
+        "src": "https://www.youtube.com/embed/hZOV6cDGw4s",
+        "clientName": "Mr. Parth Bhadiyadara",
+        "companyName": "Real Estate Developer"
+      },
+      {
+        "src": "https://www.youtube.com/embed/8arZXfsuImk",
+        "clientName": "Mr. Nainish Soni",
+        "companyName": "Gurukrupa Wire Netting"
+      },
+      {
+        "src": "https://www.youtube.com/embed/TM2cHV3IIpM",
+        "clientName": "Mr. Sagar Kumar Patel",
+        "companyName": "Saregama Mobile"
+      },
+      {
+        "src": "https://www.youtube.com/embed/DaN-EXxP4Wg",
+        "clientName": "Mr. Sojitra Rajubhai",
+        "companyName": "Real Estate Developer"
+      },
+      {
+        "src": "https://www.youtube.com/embed/uU8mxeJJYDg",
+        "clientName": "Mr. Sanjay Kumar Bhargav",
+        "companyName": "Astrologer"
+      },
+      {
+        "src": "https://www.youtube.com/embed/teUnIkW4NwA",
+        "clientName": "Dr. Jigar Parghi",
+        "companyName": "Jawed Habib Saloon"
+      },
+      {
+        "src": "https://www.youtube.com/embed/tlUceKL9lB0",
+        "clientName": "Mr. Raj Pandya",
+        "companyName": "Mahi Spa"
+      }
+    ],
+    "achievementsArr": [
+      { "count": "100 +", "title": "Clients" },
+      { "count": "100 Cr +", "title": "Ad Impressions" },
+      { "count": "10 Lacs+", "title": "Leads Generated" },
+      { "count": "10 Cr +", "title": "Ecomm generated" }
+    ],
+    
+      "blogs": [
+        {
+          "id": 1,
+          "title": "How to get the edge over your competition using real-time leads?",
+          "slug": "how-to-get-the-edge-over-your-competition",
+          "image": "/path-to-image/lead-generation.jpg",
+          "category": "Marketing Strategies",
+          "date": "Fri Jul 28 2023",
+          "description": "Learn how real-time leads can give you an edge over your competition."
+        },
+        {
+          "id": 2,
+          "title": "Maximizing Facebook Advertising: The Benefits of an Old and Mature Ad Account",
+          "slug": "maximizing-facebook-advertising",
+          "image": "/path-to-image/facebook-advertising.jpg",
+          "category": "Marketing Strategies",
+          "date": "Fri Apr 28 2023",
+          "description": "Explore the benefits of using an old and mature Facebook ad account for advertising."
+        }
+        
+        
+      ]
+    }
+    
