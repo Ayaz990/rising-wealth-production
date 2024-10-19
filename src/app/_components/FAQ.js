@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { BsChevronRight } from "react-icons/bs";
 import Description from "./Description";
+import SectionHeader from "./SectionHeader";
 
 const faqArr = [
   [
@@ -54,50 +55,59 @@ export default function FAQ() {
   };
 
   return (
-    <div className="pt-50 py-10 px-6 flex flex-col md:flex-row gap-8 text-white">
-      {faqArr?.map((item, index) => (
-        <div key={index} className="flex-1 w-full flex flex-col gap-6">
-          {item.map((faq) => (
-            <div
-              key={faq.id}
-              onClick={() => showAnswer(faq.id)}
-              className="rounded-lg overflow-hidden shadow-md hover:scale-[0.98] transition-all duration-300"
-            >
-              <div className="text-lg p-4 flex items-center justify-between cursor-pointer bg-[#464bd8]">
-                <Description
-                  color={"black"}
-                  textSize={"text-md md:text-lg"}
-                  customStyles={"tracking-normal font-medium"}
-                >
-                  {faq.question}
-                </Description>
-                <BsChevronRight
-                  id={`${faq.id}-icon`}
-                  className={`transition-transform duration-300 ${
-                    activeQuestion === faq.id ? "rotate-90" : ""
-                  }`}
-                  color="white"
-                />
-              </div>
+    <div className="pt-50 py-10 px-6 flex flex-col gap-8 text-white">
+      {/* Heading Section on Top */}
+      <SectionHeader
+        heading={"FAQs"}
+        description={"Things You Want to Know"}
+      />
+      
+      {/* FAQ Section Below the Heading */}
+      <div className="flex flex-col md:flex-row gap-8">
+        {faqArr?.map((item, index) => (
+          <div key={index} className="flex-1 w-full flex flex-col gap-6">
+            {item.map((faq) => (
               <div
-                id={faq.id}
-                className={`max-h-0 overflow-hidden transition-all duration-300 ${
-                  activeQuestion === faq.id ? "max-h-[300px]" : ""
-                } bg-white`}
+                key={faq.id}
+                onClick={() => showAnswer(faq.id)}
+                className="rounded-lg overflow-hidden shadow-md hover:scale-[0.98] transition-all duration-300"
               >
-                <div className="p-4">
+                <div className="text-lg p-4 flex items-center justify-between cursor-pointer bg-[#464bd8]">
                   <Description
-                    color={"text-gray-700"}
+                    color={"black"}
                     textSize={"text-md md:text-lg"}
+                    customStyles={"tracking-normal font-medium"}
                   >
-                    {faq.answer}
+                    {faq.question}
                   </Description>
+                  <BsChevronRight
+                    id={`${faq.id}-icon`}
+                    className={`transition-transform duration-300 ${
+                      activeQuestion === faq.id ? "rotate-90" : ""
+                    }`}
+                    color="white"
+                  />
+                </div>
+                <div
+                  id={faq.id}
+                  className={`max-h-0 overflow-hidden transition-all duration-300 ${
+                    activeQuestion === faq.id ? "max-h-[300px]" : ""
+                  } bg-white`}
+                >
+                  <div className="p-4">
+                    <Description
+                      color={"text-gray-700"}
+                      textSize={"text-md md:text-lg"}
+                    >
+                      {faq.answer}
+                    </Description>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      ))}
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

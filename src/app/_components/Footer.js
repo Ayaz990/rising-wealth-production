@@ -75,12 +75,16 @@ export default function Footer() {
   return (
     <MainContainer customStyles="bg-[#f8f8f8] text-black">
       <Section>
-        
-        <div className="text-center py-5 text-gray-600 text-sm border-t-[1px] border-gray-300">
-          © 2024 Rising Wealth. All rights reserved.{" "}
-          <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link> |{" "}
-          <Link href="/faqs" className="hover:underline">FAQs</Link> {" "}
-          
+        <div className="flex flex-col md:flex-row justify-between items-center py-5 text-gray-600 text-sm border-t-[1px] border-gray-300">
+          <p className="flex items-center mb-2 md:mb-0">
+            <IoLocationSharp size={20} className="mr-1" />
+            123 Rising Wealth St, Financial City, FW 12345
+          </p>
+          <div className="text-right">
+            <p>© 2024 Rising Wealth. All rights reserved.{" "}</p>
+            <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link> |{" "}
+            <Link href="/faqs" className="hover:underline">FAQs</Link>
+          </div>
         </div>
       </Section>
     </MainContainer>

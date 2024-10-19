@@ -4,6 +4,7 @@ import { BiRightArrowAlt } from "react-icons/bi"
 import SectionHeader from "./SectionHeader";
 
 
+
 const poppins = Poppins({ subsets: ["latin"], weight: "400" })
 
 const processSteps = [
@@ -30,7 +31,7 @@ export default function Component() {
     <div className="max-w-7xl bg-white mx-auto px-1 py-12 md:py-24">
      
      
-      <SectionHeader heading={"step to start with us"} />
+      <SectionHeader heading={"Step to start with us"} />
       <div className="text-black flex flex-col md:flex-row gap-6">
         {processSteps.map((step, index) => (
           <div key={index} className="bg-white p-6 rounded-lg flex-1 flex flex-col items-center text-center">

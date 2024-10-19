@@ -65,7 +65,6 @@ export default function Contact({ id }) {
             className={`w-full flex flex-col lg:flex-row gap-10 md:gap-16 lg:gap-20`}
           >
             <div className="w-full flex flex-col gap-y-7">
-              <Badge badgeText={"Let's Meet at office"} />
               <Heading
                 color={"text-[#2727f4]"}
                 textSize={"text-2xl md:text-4xl"}
