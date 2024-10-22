@@ -12,6 +12,7 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "date-and-time": "^3.6.0",
+    "dotenv": "^16.4.5",
     "formik": "^2.4.6",
     "next": "14.2.14",
     "nodemailer": "^6.9.15",

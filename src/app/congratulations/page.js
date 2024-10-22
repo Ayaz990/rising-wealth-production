@@ -23,9 +23,7 @@ export default function Page() {
               Thank you for taking the first step towards securing your financial future with Rising Wealth. We're excited to help craft{" "}
               <span className="text-[#464bd8]">a personalized financial strategy</span> tailored just for you.
             </Description>
-            <Description color={"text-black"} customStyles={"text-center"}>
-              Here is a PDF with information on our services and some of our success stories.
-            </Description>
+            
           </div>
           
           

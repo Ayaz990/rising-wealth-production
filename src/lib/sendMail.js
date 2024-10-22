@@ -1,66 +1,86 @@
 const nodemailer = require("nodemailer");
+const date = require("date-and-time");
+require('dotenv').config(); // Load environment variables from .env file
 
-const sendMail = async (formData, emailReceivers = [], path = '', pageUrl = '') => {
-  try {
-    // Validate formData
-    if (!formData || Object.keys(formData).length === 0) {
-      throw new Error("Invalid or empty formData provided");
+// Function to escape HTML to prevent injection attacks
+const escapeHtml = (unsafe) => {
+    return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+};
+
+// Function to validate email format
+const validateEmail = (email) => {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+};
+
+// Main function to send email
+const sendMail = async (formData, emailReceivers, path, pageUrl, title) => {
+    console.log("Received formData:", formData);
+    
+    // Validate input
+    if (!formData || typeof formData !== 'object' || Array.isArray(formData)) {
+        console.error("Invalid formData:", formData);
+        throw new Error("formData must be a valid object");
     }
 
-    // Validate emailReceivers
-    if (!Array.isArray(emailReceivers) || emailReceivers.length === 0) {
-      throw new Error("Invalid or empty emailReceivers provided");
+    // Check environment variables
+    if (!process.env.FROM_EMAIL || !process.env.EMAIL_PASS) {
+        throw new Error("Email configuration is missing. Please check your environment variables.");
     }
 
-    // Validate path
-    if (!path) {
-      throw new Error("Path is required");
+    try {
+        const transporter = nodemailer.createTransport({
+            service: "gmail",
+            auth: {
+                user: process.env.FROM_EMAIL,
+                pass: process.env.EMAIL_PASS,
+            },
+        });
+
+        let html = "<h2>Form Submission Details</h2>";
+
+        for (const [key, value] of Object.entries(formData)) {
+            console.log(`Processing key: ${key}, value: ${JSON.stringify(value)}`);
+            if (value.label && value.data) {
+                html += `<p><b>${escapeHtml(value.label)}</b>: ${escapeHtml(value.data)}</p>`;
+            } else {
+                console.warn(`Missing label or data for key: ${key}`);
+            }
+        }
+
+        html += `
+        <br/>
+        <p><b>Date</b>: ${date.format(new Date(), "MMMM D, YYYY")}</p>
+        <p><b>Time</b>: ${date.format(new Date(), "hh:mm A")}</p>
+        <p><b>Page URL</b>: ${escapeHtml(pageUrl)}</p>
+        <p><b>Path</b>: ${escapeHtml(path)}</p>
+        `;
+
+        console.log("HTML content to be sent:", html);
+
+        if (!validateEmail(emailReceivers)) {
+            throw new Error("Invalid email address provided.");
+        }
+
+        const message = {
+            from: `${process.env.FROM_NAME} <${process.env.FROM_EMAIL}>`,
+            to: emailReceivers,
+            subject: `New Form Submission for ${title}`,
+            html: html,
+        };
+
+        const info = await transporter.sendMail(message);
+        console.log("Message sent:", info.messageId);
+        return { response: info.response };
+    } catch (error) {
+        console.error(`sendMail error for subject "${title}":`, error.message);
+        throw error;
     }
-
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.FROM_EMAIL,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
-
-    let html = "";
-
-    // Generate HTML content from formData
-    Object.keys(formData).forEach((item) => {
-      if (formData[item] && formData[item].label && formData[item].data !== undefined) {
-        html += `<p><b>${formData[item].label}</b> : ${formData[item].data}</p>`;
-      } else {
-        console.warn(`formData item is missing label or data: ${item}`);
-      }
-    });
-
-    // Here you can add more HTML content
-    html += `...`;
-
-    const pathTitle = path.split("/");
-    const title = pathTitle[pathTitle.length - 1]
-      .split("-")
-      .map((item) => item.charAt(0).toUpperCase() + item.slice(1))
-      .join(" ");
-
-    // Construct the email
-    const mailOptions = {
-      from: process.env.FROM_EMAIL,
-      to: emailReceivers.join(", "), // Convert array to string
-      subject: `New submission from ${title}`,
-      html: html,
-    };
-
-    // Send email
-    const info = await transporter.sendMail(mailOptions);
-    console.log("Email sent: " + info.response);
-    return info.response; // Return the response if needed
-  } catch (error) {
-    console.error("sendMail error =====> ", error.message);
-    throw error;
-  }
 };
 
 module.exports = sendMail;
