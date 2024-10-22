@@ -78,13 +78,24 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center py-5 text-gray-600 text-sm border-t-[1px] border-gray-300">
           <p className="flex items-center mb-2 md:mb-0">
             <IoLocationSharp size={20} className="mr-1" />
-            123 Rising Wealth St, Financial City, FW 12345
+            <a href="422M+JH5, Anjar, Gujarat 370110" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              Office no. 11, City Square-C, Chitrkoot, Anjar - 370110
+            </a>
           </p>
-          <div className="text-right">
-            <p>© 2024 Rising Wealth. All rights reserved.{" "}</p>
+          <div className="text-left">
             <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link> |{" "}
             <Link href="/faqs" className="hover:underline">FAQs</Link>
           </div>
+          <div className="text-right">
+            <p>© 2024 Rising Wealth. All rights reserved.</p>
+          </div>
+        </div>
+        <div className="flex justify-end mt-2">
+          <p className="text-xs text-black">
+            <a href="https://www.logamdigital.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              Powered by Logam-Digital
+            </a>
+          </p>
         </div>
       </Section>
     </MainContainer>

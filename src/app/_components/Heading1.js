@@ -23,8 +23,8 @@ export default function Heading1() {
             </Heading>
 
             <Description color={"text-blue"}>
-              "At Rising Wealth, we craft personalized financial strategies
-              tailored for your success."
+              At Rising Wealth, we craft personalized financial strategies
+              tailored for your success.
             </Description>
 
             <ButtonGroup>

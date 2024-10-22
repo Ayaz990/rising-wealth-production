@@ -21,26 +21,26 @@ const poppins500 = Poppins({ subsets: ["latin"], weight: "500" });
 const dmSans = DM_Sans({ subsets: ["latin"], weight: "300" });
 
 const socialIcons = [
-  {
-    img: <MdAlternateEmail size={25} />,
-    name: "email",
-    link: "mailto:ayazsmemon07@gmail.com",
-  },
+  // {
+  //   img: <MdAlternateEmail size={25} />,
+  //   name: "email",
+  //   link: "mailto:ayazsmemon07@gmail.com",
+  // },
   {
     img: <BsInstagram size={25} />,
     name: "instagram",
-    link: "https://www.instagram.com/ ",
+    link: "https://www.instagram.com/risingwealth.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== ",
   },
   {
     img: <BsFacebook size={25} />,
     name: "facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/share/KJ5umbGrEkXR67Wm/?mibextid=LQQJ4d",
   },
-  {
-    img: <IoLocationSharp size={25} />,
-    name: "maps",
-    link: "https://maps.app.goo.gl/",
-  },
+  // {
+  //   img: <IoLocationSharp size={25} />,
+  //   name: "maps",
+  //   link: "https://maps.app.goo.gl/",
+  // },
 ];
 
 const ErrorText = ({ children }) => (
