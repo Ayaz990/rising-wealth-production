@@ -1,8 +1,8 @@
 User-Agent: *
 
 Allow: /
+Disallow:/private/
 
-Disallow: /video-sequence
-Disallow: /manufacturing-video-sequence
 
-Sitemap: logamdigital.com/sitemap.xml
+
+Sitemap: https://risingwealth.net/sitemap.xml
