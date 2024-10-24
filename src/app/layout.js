@@ -17,14 +17,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-2BW649SZK6" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', '');
+          gtag('config', 'G-2BW649SZK6');
         `}
         </Script>
       <body className={poppins.className}>
@@ -33,7 +33,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
-     
+     <GoogleTagManger gtmId="
+GTM-WFF595RC"/>
     </html>
   );
 }
