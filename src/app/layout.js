@@ -2,7 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
 import Footer from "./_components/Footer";
-//import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import SocialLink from "./_components/SocialLink";
 import Script from "next/script";
 
@@ -17,24 +17,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-2BW649SZK6" />
-        <Script id="google-analytics">
-          {`
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-2BW649SZK6" />
+      <Script id="google-analytics">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
           gtag('config', 'G-2BW649SZK6');
         `}
-        </Script>
+      </Script>
       <body className={poppins.className}>
-        
         <Navbar />
         {children}
         <Footer />
       </body>
-     <GoogleTagManger gtmId="
-GTM-WFF595RC"/>
+      <GoogleTagManager gtmId="GTM-WFF595RC"
+      />
     </html>
   );
 }
